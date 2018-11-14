@@ -20,7 +20,8 @@
     this.age = age
   }
   function Student(name, age, price) {
-    Person.call(this, name, age)  // 相当于: this.Person(name, age)
+   Person.call(this, name, age)
+      // 相当于: this.Person(name, age)
     /*this.name = name
     this.age = age*/
     this.price = price

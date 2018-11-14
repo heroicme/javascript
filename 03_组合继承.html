@@ -25,6 +25,11 @@
   }
   Student.prototype = new Person() // 为了能看到父类型的方法
   Student.prototype.constructor = Student //修正constructor属性
+
+
+
+
+
   Student.prototype.setPrice = function (price) {
     this.price = price
   }
